@@ -1,0 +1,7 @@
+schema = 1
+id = "thinking-zh"
+name = "Thinking 中文替换"
+version = "0.1.0"
+description = "Hide omp's original thinking sections; keep the thinking-zh translation boxes."
+window = "window.luau"
+styles = ["hide.css"]

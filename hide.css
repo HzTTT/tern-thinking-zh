@@ -1,0 +1,24 @@
+/* thinking-zh · 方案 A「无痕」
+   1) 隐藏 omp 原生思考原文（宿主 section role）
+   2) 翻译框弱化：头部小字半透明，正文 72% 透明度 */
+
+[data-surface='omp.session'] [data-role='omp.thinking'],
+[data-surface='omp.session'] [data-role='omp.thinking.live'] {
+	display: none;
+}
+
+[data-role='thinking-zh.box'],
+[data-role='thinking-zh.live'] {
+	padding: 2px 0;
+}
+
+[data-role='thinking-zh.box'] .sf-section-head > .sf-head,
+[data-role='thinking-zh.live'] .sf-section-head > .sf-head {
+	font-size: 11px;
+	opacity: 0.55;
+}
+
+[data-role='thinking-zh.box'] .sf-section-body,
+[data-role='thinking-zh.live'] .sf-section-body {
+	opacity: 0.72;
+}

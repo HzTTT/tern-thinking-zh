@@ -1,0 +1,3 @@
+--!strict
+-- thinking-zh: styling only (manifest styles). This entry exists because the
+-- manifest requires at least one host or window entry; it does nothing.
